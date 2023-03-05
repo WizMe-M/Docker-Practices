@@ -1,0 +1,9 @@
+version: 'v1'
+
+services:
+  app:
+    build: ./application
+    container_name: python-db-lister
+  mongo:
+    image: mongo
+    container_name: mongo-database
