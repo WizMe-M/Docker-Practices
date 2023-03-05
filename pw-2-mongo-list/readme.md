@@ -7,3 +7,7 @@ docker-compose:
 - собирает образ "app" из папки "application"
 - скачивает образ "mongo" из DockerHub
 - создает и запускает контейнеры в связке
+
+![Images after 'docker-compose up' execution](../img/pw-2-images.png)
+
+![Bundled ran containers](../img/pw-2-containers.png)
